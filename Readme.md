@@ -61,11 +61,11 @@ With [component](https://github.com/component/component):
 $ component build
 ```
 
-With npm via [browserify](http://browserify.org/):
+With [browserify](http://browserify.org/):
 ```
 $ browserify index.js --s arrival > build/build.js
 ```
-You will also need to remove the line `var arrival = require('arrival');` from the `index.html` file
+When using `browserify`, You will also need to remove the line `var arrival = require('arrival');` from the `index.html` file.
 
 ## Limitations
 
